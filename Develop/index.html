@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -28,9 +29,85 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <div class="container shadow-xl bg-white my-8 mx-auto pt-8 divide-light-blue-400">
       <h2 id="day" class="text-center text-xl my-6 border-none"></h2>
+      <!-- <div class="future"></div>
+      <btn id="saveBtn"></btn> -->
+     
       <!-- Timeblocks go here -->
+    <div class="container">
+      <div class="row">
+      <div class="hour col" id="9">9:00 am</div>
+      
+      <textarea class="textarea col-8"></textarea>
+      
+      <button class="saveBtn col">Click</button>
+    </div>
+    <div class="row">
+      <div class="hour col" id="10">10:00 am</div>
+      
+      <textarea class="textarea col-8"></textarea>
+      
+      <button class="saveBtn col">Click</button>
+      
+    </div>
+    <div class="row">
+      <div class="hour col " id="11">11:00 am</div>
+      
+      <textarea class="textarea col-8"></textarea>
+      
+      <button class="saveBtn col">Click</button>
+      
+    </div>
+    <div class="row">
+      <div class="hour col" id="12">12:00 pm</div>
+      
+      <textarea class="textarea col-8"></textarea>
+      
+      <button class="saveBtn col">Click</button>
+      
+    </div>
+    <div class="row">
+      <div class="hour col" id="13">1:00 pm</div>
+      
+      <textarea class="textarea col-8"></textarea>
+      
+      <button class="saveBtn col">Click</button>
+      
+    </div>
+    <div class="row">
+      <div class="hour col" id="14">2:00 pm</div>
+      
+      <textarea class="textarea col-8"></textarea>
+      
+      <button class="saveBtn col">Click</button>
+      
+    </div>
+    <div class="row">
+      <div class="hour col">3:00 pm</div>
+      
+      <textarea class="textarea col-8"></textarea>
+      
+      <button class="saveBtn col">Click</button>
+      
+    </div>
+    <div class="row">
+      <div class="hour col">4:00 pm</div>
+      
+      <textarea class="textarea col-8 description" ></textarea>
+      
+      <button class="saveBtn col">Click</button>
+      
+    </div>
+    <div class="row">
+      <div class="hour col">5:00 pm</div>
+      
+      <textarea class="textarea col-8"></textarea>
+      
+      <button class="saveBtn col">Click</button>
+      
+    </div>
+    </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

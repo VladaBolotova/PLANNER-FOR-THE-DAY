@@ -1,3 +1,13 @@
+const store = window.localStorage;
+
+const container = $(".container");
+
+const now = moment();
+
+const Time = { text: moment().format("h:00 A"), hour: moment().hour() };
+
+$("#day").text(now.format("dddd MMMM DD "));
+
 var currentTime=moment().hour();
 var allTimeBlocks = document.getElementsByClassName('hour')
 

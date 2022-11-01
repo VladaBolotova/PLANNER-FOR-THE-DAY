@@ -27,10 +27,10 @@ for (var i=0;i<allTimeBlocks.length; i++) {
   }
 };
 
-// var addButton=document.querySelector("button");
-// addButton.addEventListener("click", function() {
-//   var textContent=this.previousElementSibling.value;
-//   console.log(textContent);
-//   localStorage.setItem("textcontent", textContent);
-// });
+var addButton=document.querySelector("button");
+addButton.addEventListener("click", function() {
+  var textContent=this.previousElementSibling.value;
+  console.log(textContent);
+  localStorage.setItem("textcontent", textContent);
+});
 

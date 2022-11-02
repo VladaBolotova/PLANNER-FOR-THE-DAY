@@ -11,3 +11,5 @@ The page presents a daily planner to create a schedule. When user opens a planne
 Credits N/A
 
 
+<img width="1440" alt="Screen Shot 2022-11-02 at 5 57 48 PM" src="https://user-images.githubusercontent.com/111080921/199610483-27881dc1-216c-472c-b9fb-8d2e6e6d2f34.png">
+<img width="1440" alt="Screen Shot 2022-11-02 at 5 57 51 PM" src="https://user-images.githubusercontent.com/111080921/199610492-9dc9b66c-dd1f-4ba9-98d1-b97b27f6dd35.png">
